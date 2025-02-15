@@ -1,0 +1,74 @@
+body{
+    background-color: lightgrey; 
+    margin: 0px
+
+       
+} 
+.header{
+    font-family: "Lexend Deca", serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.wrapper{
+    margin: auto;
+    width: 33%;
+}
+   
+.wrap-box{ 
+    margin: 10px;    
+    background-color: white;
+    width: 600px;
+    height: 650px;
+    border-color: black;
+    border-radius: 4px;
+}
+.title-date{
+    width: 100%;
+    height: 10%;
+    margin: none;
+    font-family: "Roboto", serif;
+    
+}
+        
+.photo-title{
+    float: left;
+    margin-left: 5px;         
+}
+.top-date{
+    color: lightgrey;
+    float: right;
+    margin-right: 5px; 
+            
+}
+.picture{
+    margin: none;
+    display:flex;
+    height: 69%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(240, 240, 240);
+}
+.picture img{ position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+	object-position: center;
+      
+}
+.comentsfeet{
+    font-family: "Outfit", serif;
+    margin: none;
+    height: 20%;
+    width: 100%;       
+}
+.comentsfeet p{ 
+    margin-left: 5px; 
+}
+.Emoji-font{
+    font-family: "Noto Color Emoji", serif;
+}
+
